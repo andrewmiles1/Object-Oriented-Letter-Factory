@@ -8,12 +8,9 @@ class LetterA{
   static int nextLetterID;
 
   public:LetterA();
+  //equals operator overload
   public:bool operator==(const LetterA &param);
   
 };
-
-
-
-
 
 #endif //LETTER_A_FACTORY_H
